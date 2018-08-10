@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <meta charset="UTF-8">
+  <title>Wind Speed</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#" style="color: white; background-color:darkcyan">Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="MaxTemp.html">Max Temperature</a></li>
+                <li><a href="Humidity.html">Humidity</a></li>
+                <li><a href="Cloudiness.html">Cloudiness</a></li>
+                <li><a href="WindSpeed.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>
+          </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  
+
+    <div class="p-3 mb-2 bg-light text-dark">
+        <a class="navbar-brand" href="#" style="color:darkcyan; font-size:xx-large">Wind Speed</a>
+        <br>
+        <br>
+        <hr>
+        <!-- Image -->
+
+   
+        
+        <div class="col-md-8" style = "background-color:lightcyan; font-size: large">
+        <br>       
+                <img src="Fig4.png" style="width:600px;height:400px;" alt="vs. Wind Speed">
+                <br>
+                <br>
+
+                <div class="panel-body" style="padding: 0 15px; float: left;">There are some correlation found between 
+                  latitude and wind speed, but not very significant. Very fast wind speed are observed at very high latitude 
+                  (50-80). The most common wind speed are under 10mph, very few cities has wind speed higher than 25, and those 
+                  are all from High Latitude both Northern Hemisphere, and South Hemisphere.
+                </div>
+        </div>
+        
+        <div class="col-md-4" style = "background-color:lavender; font-size: large">
+            <div class="col-md-4">
+                <h3 style = "color:darkcyan; font-style: bold; font-family:verdana" >Visualizations</h3>
+                <a href=#>
+                    <img src="Fig1.png" style="width:200px;height:200px; " alt="vs. Max Temperature">
+                    <hr>
+                    <img src="Fig2.png" style="width:200px;height:200px;" alt="vs. Humidity">
+                    <hr>
+                    <img src="Fig3.png" style="width:200px;height:200px;" alt="vs. Cloudiness">
+                    <hr>
+                    <img src="Fig4.png" style="width:200px;height:200px; border: darkcyan 4px solid" alt="vs. Wind Speed">
+                </a>    
+
+            </div>
+        </div> 
+
+
+    </div>
+    
+      
+</body>
+
+</html>
